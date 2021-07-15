@@ -55,11 +55,11 @@ class ConfigController extends Controller
             //save the file in original name
             $file_name = $request->file($file_key)->getClientOriginalName();
             // create path
-            $path = "config";
+            $path = "";
 
             //check if the file name is already exists
             $new_file_name = SiteHelpers::checkFileName($path, $file_name);
-
+            // dd($new_file_name);
             $path = $request->file($file_key)->storeAs($path, $new_file_name);
             
             //upload the image and save the image name in array, to save it in DB

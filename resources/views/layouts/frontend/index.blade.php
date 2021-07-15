@@ -26,7 +26,7 @@
         <div class="row" style="flex-grow: 1;">
             <div class="col-6 col-sm-4 col-md-3 col-lg-2 col-xl-2" id="logo">
                 <i class="fa fa-bars d-inline-block d-md-none mobile-nav"></i>
-                <a href="{{ route('home') }}" class="float-xl-right"><img src="{{ asset('frontend/img/logo.png') }}" width="100" height="23" /></a>
+                <a href="{{ route('home') }}" class="float-xl-right"><img class="img-fluid" src="{{ asset('frontend/img/logo_vascomm_panjang.png') }}" width="100" height="23" /></a>
             </div>
             <div class="col-md-3 col-lg-6 col-xl-6 d-none d-md-block">
                 <div class="dropdown float-left" >
